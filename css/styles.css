@@ -24,7 +24,8 @@ h2{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-}
+    text-transform: capitalize;
+}   
 
 h3{
     color:#2E2F42;
@@ -42,8 +43,9 @@ h3{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.116;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 
 .logo-dark {
@@ -72,7 +74,10 @@ h3{
 .header-page:active{
 text-decoration:underline 
 }
-
+ 
+.address{
+    font-style: normal;
+}
 
 .header-address {
  color:#434455 ;
@@ -101,6 +106,10 @@ text-decoration:underline
 .home-button {
     background-color: #4D5AE5;
     color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .home-button:hover, .home-button:focus{
