@@ -82,18 +82,13 @@ img{
 border-bottom: 1px solid #e7e9fc
 }
 
-.container
- {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
 .header .container{
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
 .menu-page {
@@ -104,6 +99,8 @@ border-bottom: 1px solid #e7e9fc
 .nav-menu {
     display: flex;
     align-items: center;
+    padding: 24px;
+    gap: 40px;
 }
 
 .menu-address {
