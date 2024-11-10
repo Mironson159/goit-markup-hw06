@@ -7,17 +7,32 @@ body{
             line-height: 1.5;
             letter-spacing: 0.02em;
             background-color: #ffffff;
+            margin: 0;
 }
 
 ul, ol{
     list-style-type: none;
+    margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a{
     text-decoration:none
 }
 
-h2{
+.infome-title, .team-title, .portfolio-title{
    color:#2E2F42; 
     font-size: 36px;
     font-weight: 700;
@@ -27,7 +42,7 @@ h2{
     text-transform: capitalize;
 }   
 
-h3{
+.infome-subtitle , .team-subtitle, .portfolio-subtitle{
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -58,6 +73,38 @@ h3{
 /* #endregion logo */
 
 /* #region header */
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-page-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.menu-page {
+    display: flex;
+    margin-left: 76px;
+    gap: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-address {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap:40px;
+}
+
 .header-page{
     color: #2E2F42;
     font-family: Roboto;
