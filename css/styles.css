@@ -92,10 +92,14 @@ border-bottom: 1px solid #e7e9fc
     align-items: center;
 }
 
+
 .menu-page {
     display: flex;
     gap: 40px; 
-    padding: 24px 0;
+}
+
+.menu-page li{
+padding: 24px 0;
 }
 
 .nav-menu {
