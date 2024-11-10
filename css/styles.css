@@ -278,7 +278,7 @@ gap: 24px;
 
 
 .portfolio-title {
-    padding-bottom:72px ;
+    margin-bottom:72px ;
     align-items: center;
 }
 
@@ -286,9 +286,11 @@ gap: 24px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-content {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name-prof {
@@ -299,6 +301,7 @@ gap: 24px;
 }
 
 .portfolio-subtitle {
+   margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -310,9 +313,21 @@ gap: 24px;
 /* #region footer*/
 .footer{
 background-color: #2E2F42;
+margin-top: 120px;
 }
+
+.footer{
+    padding: 100px 0;
+}
+
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 
 .footer-text {
     color: #F4F4FD;
+    width: 264px;
 }
 /* #endregion footer*/
