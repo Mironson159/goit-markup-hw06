@@ -256,12 +256,12 @@ gap: 24px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.name-prof{
+.team-name-prof{
     padding: 32px 0
 }
 
 .team-subtitle {
-    padding-bottom:8px ;
+    margin-bottom:8px ;
     text-align: center;
 }
 
@@ -272,11 +272,38 @@ gap: 24px;
 /* #endregion section3*/
 
 /* #region section4*/
-.portfolio {}
+.portfolio {
+    padding: 120px 0;
+}
 
-.portfolio-title {}
 
-.portfolio-content {}
+.portfolio-title {
+    padding-bottom:72px ;
+    align-items: center;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-content {
+}
+
+.portfolio-name-prof {
+    padding: 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom:1px solid  #E7E9FC;
+}
+
+.portfolio-subtitle {
+}
+
+.portfolio-text {
+
+}
 
 /* #endregion section3*/
 
