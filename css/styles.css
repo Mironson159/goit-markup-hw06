@@ -65,7 +65,6 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-        padding: 24px 0;
 }
 
 .logo-dark {
@@ -116,10 +115,15 @@ border-bottom: 1px solid #e7e9fc
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: block;
+        padding: 24px 0;
 }
 
 .header-page:hover, .header-page:focus{
     color: #404BBF;
+}
+
+.header-page{
 }
 
 .header-page:active{
