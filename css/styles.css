@@ -82,6 +82,7 @@ img{
 border-bottom: 1px solid #e7e9fc
 }
 
+
 .header .container{
     width: 1158px;
         padding: 0 15px;
@@ -99,14 +100,11 @@ border-bottom: 1px solid #e7e9fc
 .nav-menu {
     display: flex;
     align-items: center;
-    padding: 24px;
-    gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-address {
     display: flex;
-    margin: 0;
-    padding: 0;
     gap:40px;
 }
 
