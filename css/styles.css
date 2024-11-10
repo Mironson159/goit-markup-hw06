@@ -63,7 +63,8 @@ img{
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-dark {
@@ -80,6 +81,7 @@ img{
 .header{
 border-bottom: 1px solid #e7e9fc
 }
+
 .container
  {
     width: 1158px;
@@ -96,7 +98,6 @@ border-bottom: 1px solid #e7e9fc
 
 .menu-page {
     display: flex;
-    margin-left: 76px;
     gap: 20px;
 }
 
