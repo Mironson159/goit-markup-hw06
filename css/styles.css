@@ -64,6 +64,8 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+        padding: 24px 0;
 }
 
 .logo-dark {
@@ -79,11 +81,6 @@ img{
 
 .header{
 border-bottom: 1px solid #e7e9fc
-}
-
-.header-logo{
-    margin-right: 76px;
-        padding: 24px 0;
 }
 
 .header .container{
@@ -144,9 +141,16 @@ text-decoration:underline
 
 /* #region section1*/
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .home {
     background-color: #2E2F42;
-    text-align:center
+    text-align:center;
+    padding: 188px ;
 }
 
 .home-title {
@@ -155,6 +159,8 @@ text-decoration:underline
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    padding-bottom: 48px;
 }
 
 .home-button {
@@ -164,6 +170,11 @@ text-decoration:underline
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .home-button:hover, .home-button:focus{
