@@ -666,12 +666,13 @@ img {
   fill: #4d5ae5;
 }
 
-.window-comment-textrea {
+.window-comment-box {
   width: 360px;
   height: 120px;
+  margin-bottom: 16px;
 }
 
-.window-comment-box .window-form-comment {
+.window-form-comment {
   padding: 8px 16px;
   background-color: transparent;
   border: 1px solid #2e2f4266;
