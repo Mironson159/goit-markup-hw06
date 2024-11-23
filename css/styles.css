@@ -588,7 +588,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .window-close-btn:hover,
 .window-close-btn:focus {
   background-color: #404bbf;
@@ -614,6 +613,7 @@ img {
   line-height: 14px;
   letter-spacing: 0.04em;
   text-align: left;
+  color: #8e8f99;
 }
 
 .box-form-name {
@@ -633,7 +633,6 @@ img {
 }
 
 .window-form-name:focus {
-  border-color: #;
 }
 
 .window-icon {
