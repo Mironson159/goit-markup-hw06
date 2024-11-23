@@ -575,20 +575,21 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form-cont">
+        <div class="footer-form-group">
+          <p class="footer-text-form">Subscribe</p>
           <form class="footer-form">
-            <p class="footer-form-text">Subscribe</p>
-            <label class="footer-label">
-              <input
-                class="footer-email"
-                type="email"
-                name="footer-email"
-                placeholder="E-mail"
-              />
-            </label>
-            <button type="submit" class="footer-button">
+            <label class="footer-form-label" for="email-footer"></label>
+            <input
+              class="footer-form-input"
+              type="email"
+              name="footer-email"
+              placeholder="E-mail"
+              id="email-footer"
+              required
+            />
+            <button class="footer-form-button" type="submit">
               Subscribe
-              <svg class="" width="24" height="24">
+              <svg class="icon-telegram" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
