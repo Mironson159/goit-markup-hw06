@@ -490,6 +490,8 @@ img {
 }
 
 .footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form-label {
@@ -501,7 +503,6 @@ img {
   border: 1px solid #ffffff;
   border-radius: 4px;
   background-color: #2e2f42;
-  margin-right: 24px;
 }
 
 .footer-form-button {
