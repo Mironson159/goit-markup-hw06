@@ -673,16 +673,22 @@
 
           <div class="privacy-policy-box">
             <input
+              class="visually-hidden"
               type="checkbox"
               name="user-privacy"
               required
               id="user-privacy"
+              value="true"
             />
-            <label for="user-privacy"></label>
-            <p class="privacy-policy">
-              I accept the terms and conditions of the
+            <label for="user-privacy" class="privacy-policy"></label>
+              <span class="true">
+                <svg class="icon-true" width="10" height="8">
+            <use href="./images/icons.svg#icon-true"></use>
+          </svg>
+        </span>
+              accept the terms and conditions of the
               <a href="" class="privacy-policy-link">Privacy Policy</a>
-            </p>
+            </label>
           </div>
           <div class="window-button-box">
             <button type="button" class="window-button">Send</button>
