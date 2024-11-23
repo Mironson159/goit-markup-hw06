@@ -551,7 +551,8 @@ img {
   z-index: 999;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .window-form-overlay.is-open {
@@ -590,15 +591,18 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .window-close-btn:hover,
 .window-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .icon-none {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-none {
+  fill: #ffffff;
 }
 
 .window-form-title {
@@ -640,6 +644,8 @@ img {
   background-color: transparent;
   border: 1px solid #2e2f4266;
   border-radius: 4px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .window-form-name:focus {
@@ -647,7 +653,8 @@ img {
 }
 .window-icon {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion overlay*/
