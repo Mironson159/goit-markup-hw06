@@ -977,7 +977,7 @@ img {
 }
 /* #endregion footer*/
 
-.mob-overlay.is-open {
+.mob-overlay {
   background-color: rgba(46, 47, 66, 0.4);
 
   position: fixed;
@@ -1081,7 +1081,7 @@ img {
 
 .mob-social-icons {
   display: flex;
-  gap: 40px;
+  gap: 35px;
   margin-bottom: 40px;
 }
 
