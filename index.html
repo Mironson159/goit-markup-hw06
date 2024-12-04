@@ -138,6 +138,10 @@
           <ul class="team-list">
             <li class="team-content">
               <img
+                srcset="
+                  ./images/people/Mark.jpg 1x,
+                  ./images/people/Mark.jpg 2x
+                "
                 src="./images/people/Mark.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
@@ -395,12 +399,18 @@
           <ul class="portfolio-list">
             <li class="portfolio-content">
               <div class="portfolio-overlay">
-                <img
-                  src="./images/portfolio/BankingApp.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source media="(min-width: 1158px)" srcset="1x 2x" />
+                  <source media="(min-width: 768px)" srcset="1x 2x" />
+                  <source media="(max-width: 767px)" srcset="1x 2x" />
+                  <img
+                    src="./images/portfolio/BankingApp.jpg"
+                    alt="Banking App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+
                 <p class="portfolio-text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -606,24 +616,25 @@
     </footer>
 
     <div class="mob-overlay">
-      <div class="mob-overlay-box">
+      <div class="mob-overlay-box container">
         <button class="mob-close-btn" type="button">
           <svg class="icon-none" width="8" height="8">
             <use href="./images/icons.svg#icon-none"></use>
           </svg>
         </button>
-
-        <ul class="mob-links">
-          <li class="mob-link">
-            <a class="mob-page" href="" target="_blank">Social</a>
-          </li>
-          <li class="mob-link">
-            <a class="mob-page" href="" target="_blank">Portfolio</a>
-          </li>
-          <li class="mob-link">
-            <a class="mob-page" href="" target="_blank">Contacts</a>
-          </li>
-        </ul>
+        <nav class="nav-mob-menu">
+          <ul class="mob-links">
+            <li class="mob-link">
+              <a class="mob-page" href="" target="_blank">Social</a>
+            </li>
+            <li class="mob-link">
+              <a class="mob-page" href="" target="_blank">Portfolio</a>
+            </li>
+            <li class="mob-link">
+              <a class="mob-page" href="" target="_blank">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <address class="mob-address">
           <ul class="mob-menu-address">
             <li>
@@ -646,7 +657,7 @@
               href="https://www.instagram.com"
               target="_blank"
             >
-              <svg class="icon-team-social" width="16" height="16">
+              <svg class="icon-team-social" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
@@ -658,7 +669,7 @@
               href="https://www.instagram.com"
               target="_blank"
             >
-              <svg class="icon-team-social" width="16" height="16">
+              <svg class="icon-team-social" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
@@ -670,7 +681,7 @@
               href="https://www.instagram.com"
               target="_blank"
             >
-              <svg class="icon-team-social" width="16" height="16">
+              <svg class="icon-team-social" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
@@ -682,7 +693,7 @@
               href="https://www.instagram.com"
               target="_blank"
             >
-              <svg class="icon-team-social" width="16" height="16">
+              <svg class="icon-team-social" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -691,7 +702,7 @@
       </div>
     </div>
 
-    <div class="window-form-overlay">
+    <div class="window-form-overlay is-open">
       <div class="window-form-box">
         <button class="window-close-btn" type="button">
           <svg class="icon-none" width="8" height="8">
