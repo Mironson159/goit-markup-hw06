@@ -1061,6 +1061,10 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-page.active {
+  color: #404bbf;
+}
+
 .mob-page:hover,
 .mob-page:focus {
   color: #404bbf;
@@ -1084,6 +1088,9 @@ img {
   font-style: normal;
 }
 
+.mob-header-address.active {
+  color: #404bbf;
+}
 .mob-header-address:hover,
 .mob-header-address:focus {
   color: #404bbf;
